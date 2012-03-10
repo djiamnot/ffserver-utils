@@ -1,0 +1,4 @@
+#!/usr/bin/env lunch
+URL="localhost"
+add_command("ffserver", identifier="ffserver")
+add_command("ffmpeg -f alsa -i pulse -f video4linux2 -s 352x288 -i /dev/video0 http://%s:8090/feed1.ffm"%(URL),identifier="ffmpeg",depends=["ffserver"])
