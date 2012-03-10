@@ -1,0 +1,12 @@
+Simple ffserver example
+=======================
+
+This is a simple ffserver example. What is needed to run it:
+
+- ffmpeg
+- lunch (https://launchpad.net/~sat-metalab/+archive/metalab)
+
+The lunch script ensures that that the ffserver/ffmpeg pair runs and will relaunch either software in case of a crash.
+The ffserver software creates a flash movie stream.
+The ffmpeg creates the input for the ffserver. In current configuration it reads the first available camera and default
+audio input.
