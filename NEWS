@@ -1,0 +1,12 @@
+Streaming goodies release notes
+===============================
+
+ffserver-utils 0.0.1 (2012-03-11)
+---------------------------------
+This release is a first developer snapshot.
+
+New features:
+
+* use ffmpeg/ffserver for streaming flv video
+* use lunch script to launch and monitor the processes
+
